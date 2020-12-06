@@ -196,6 +196,7 @@ padding: 0 30px;
   }
 
   .header__logo {
+    margin-left: 10px;
     font-size: 30px;
     font-weight: 700;
     color: #00e0d0
@@ -461,3 +462,40 @@ svg.animate path {
 
 
 
+/* АДАПТИРУЕМ */
+
+@media screen and (max-width: 600px) {
+  .top-block__title {
+    font-size: 26px;
+  }
+  .top-block__suptitle {
+    font-size: 16px;
+  }
+}
+
+
+
+@media screen and (max-height: 750px) {
+  .request__svg{
+    width: 30px;
+    height: 30px;
+  }
+  .contact__wrapper h3{
+    font-size: 20px;
+  }
+  .contact__wrapper .p2{
+    font-size: 16px;
+  }
+    input{
+      width: 360px;
+      height: 30px;
+      font-size: 16px;
+      margin-bottom: 15px;
+  }
+      
+    textarea{
+      width: 100%;
+      height: 110px;
+      resize: none;
+  }    
+  }
