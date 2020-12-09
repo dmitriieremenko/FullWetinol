@@ -468,10 +468,10 @@ svg.animate path {
     font-size: 26px
   }
   .top-block__title {
-    font-size: 26px;
+    font-size: 40px;
   }
   .top-block__suptitle {
-    font-size: 22px;
+    font-size: 20px;
   }
   /* Шапка - КОНЕЦ */
   /* Второй слайд - НАЧАЛО */
@@ -479,10 +479,10 @@ svg.animate path {
     display: block;
   }
   .container__item .title{
-    font-size: 16px;
+    font-size: 18px;
   }
   .container__item .text{
-    font-size: 14px;
+    font-size: 16px;
   }
   .container__item .about__icon{
     width: 40px;

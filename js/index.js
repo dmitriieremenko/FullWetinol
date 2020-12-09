@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
 	document.querySelector ("form").addEventListener("submit", function(e){
 		alert("Submited!");
@@ -7,9 +5,8 @@ $(document).ready(function() {
 	  })
 
 		
-	
-	
-	$('#pagepiling').pagepiling( { 		
+	  if( window.innerWidth >= 968 ) {
+	$('#pagepiling').pagepiling( { 	 
 		onLeave: function(asd, index, direction){
 			if(index == 2){
 				document.querySelector(".header") .classList.add("header__section2");
@@ -30,7 +27,7 @@ $(document).ready(function() {
 			if(index == 5){
 				document.querySelector(".header") .classList.remove("header__section2");
 			}
-
+		
 
 // if(index == 1 && direction =='down'){
 // 	document.querySelector(".header") .classList.add("header__section2")
@@ -81,10 +78,10 @@ $(document).ready(function() {
 
 
 // }
-
-
+		
+			
 	}});
-
+	  
 
 	if(window.location.hash == "#slide-five") {
 		five()
@@ -106,9 +103,10 @@ $(document).ready(function() {
 		one()
 	}
 	
-
+	  }
 
 });
+
 
 
 
