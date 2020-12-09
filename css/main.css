@@ -478,63 +478,18 @@ svg.animate path {
   .container__about {
     display: block;
   }
+  .container__item .title{
+    font-size: 16px;
+  }
+  .container__item .text{
+    font-size: 14px;
+  }
+  .container__item .about__icon{
+    width: 40px;
+    height: 40px;
+  }
   /* Второй слайд - КОНЕЦ */
 } 
 
 /* Медиа запрос по ширине - КОНЕЦ */
 
-
-<<<<<<< HEAD
-/* Медиа запрос по высоте - НАЧАЛО */
-
-@media screen and (max-height: 566px) {
-  /* Шапка - НАЧАЛО */
-  .header__logo {
-    font-size: 26px
-  }
-=======
-/* АДАПТИРУЕМ */
-
-@media screen and (max-width: 600px) {
->>>>>>> d288f10445cca23f58dd30a878d009ca097e6c38
-  .top-block__title {
-    font-size: 26px;
-  }
-  .top-block__suptitle {
-<<<<<<< HEAD
-    font-size: 22px;
-  }
-  /* Шапка - КОНЕЦ */
-}
-=======
-    font-size: 16px;
-  }
-}
-
-
-
-@media screen and (max-height: 750px) {
-  .request__svg{
-    width: 30px;
-    height: 30px;
-  }
-  .contact__wrapper h3{
-    font-size: 20px;
-  }
-  .contact__wrapper .p2{
-    font-size: 16px;
-  }
-    input{
-      width: 360px;
-      height: 30px;
-      font-size: 16px;
-      margin-bottom: 15px;
-  }
-      
-    textarea{
-      width: 100%;
-      height: 110px;
-      resize: none;
-  }    
-  }
->>>>>>> d288f10445cca23f58dd30a878d009ca097e6c38
