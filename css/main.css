@@ -501,6 +501,20 @@ svg.animate path {
     height: 40px;
   }
   /* Второй блок - КОНЕЦ */
+  /* Третий блок - НАЧАЛО */
+  .block__services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #3d2f63;
+    background-size: cover;
+  }
+  .container__services{
+    display: block;
+  }
+
 } 
 
 /* Медиа запрос по ширине - КОНЕЦ */
