@@ -463,18 +463,30 @@ svg.animate path {
 /* Медиа запрос по ширине - НАЧАЛО */
 
 @media screen and (max-width: 566px) {
-  /* Шапка - НАЧАЛО */
+  /* Первый блок - НАЧАЛО */
+  .top-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background: url("../img/top-block.jpg")
+    center
+    no-repeat;
+    background-size: cover;
+  }
   .header__logo {
     font-size: 26px
   }
   .top-block__title {
+    margin: 0 10px;
     font-size: 40px;
   }
   .top-block__suptitle {
+    margin: 0 10px;
     font-size: 20px;
   }
-  /* Шапка - КОНЕЦ */
-  /* Второй слайд - НАЧАЛО */
+  /* Первый блок - КОНЕЦ */
+  /* Второй блок - НАЧАЛО */
   .container__about {
     display: block;
   }
@@ -488,7 +500,7 @@ svg.animate path {
     width: 40px;
     height: 40px;
   }
-  /* Второй слайд - КОНЕЦ */
+  /* Второй блок - КОНЕЦ */
 } 
 
 /* Медиа запрос по ширине - КОНЕЦ */

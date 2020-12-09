@@ -130,3 +130,9 @@ html, body {
     height: 100%;
 }
 
+@media screen and (max-width: 566px) {
+    html, body {
+        overflow: scroll;
+    }
+}
+
