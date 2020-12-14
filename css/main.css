@@ -466,9 +466,9 @@ svg.animate path {
   }
 }
 
-/* Медиа запрос по ширине - НАЧАЛО */
+/* Медиа запрос по ширине и высоте - НАЧАЛО */
 
-@media screen and (max-width: 566px) {
+@media screen and (max-width: 566px), screen and (max-height: 450px)  {
   /* Первый блок - НАЧАЛО */
   .top-block {
     display: flex;
@@ -634,5 +634,5 @@ svg.animate path {
    /* Пятый блок - КОНЕЦ */
 } 
 
-/* Медиа запрос по ширине - КОНЕЦ */
+/* Медиа запрос по ширине и высоте - КОНЕЦ */
 
