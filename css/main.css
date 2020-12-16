@@ -469,6 +469,73 @@ svg.animate path {
 /* Медиа запрос по ширине  - НАЧАЛО */
 
 @media screen and (max-width: 566px) {
+  .nav{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #333333;
+    padding: 70px 10px 20px 10px;
+    transition: all .3s ease 0s;
+}
+.nav.active{
+    top: 0;
+}
+.nav__link{
+  margin: 20px ;
+  display: block;
+}
+  /* Бургер меню - НАЧАЛО */
+  .header__burger{
+    margin-right: 15px;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    position: relative;
+}
+.header__burger span{
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;      
+    transition: all .3s ease 0s;
+}
+.header__burger::before,
+.header__burger::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all .3s ease 0s;
+    z-index: 100000000;
+}
+.header__burger::before{
+    top: 0;
+}
+.header__burger::after{
+    bottom: 0;
+}
+.header__burger.active::before{
+  transform: rotate(45deg);
+  top: 9px;
+}
+.header__burger.active::after{
+  transform: rotate(-45deg);
+  bottom: 9px;
+}
+.header__burger.active span{
+  transform: scale(0);
+}
+/* Бургер меню - КОНЕЦ */
+
   /* Первый блок - НАЧАЛО */
   .top-block {
     display: flex;
